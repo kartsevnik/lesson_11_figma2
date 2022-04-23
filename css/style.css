@@ -1,0 +1,111 @@
+@import "null.css";
+@import "fonts.css";
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    background-image: url(../img/main/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    overflow: hidden;
+}
+.header {
+    width: auto;
+    height: 800px;
+    /* padding-top: 800px; */
+}
+.main {
+    position: relative;
+    padding-bottom: 50px;
+}
+.who-we-are {
+    position: relative;
+    max-width: 1020px;
+    padding: 100px 87px 300px 87px;
+    background-color: #5D62B5;
+    margin: -180px auto 54px auto;
+    border-radius: 40px;
+    color: #F5F5F5;
+}
+
+.who-we-are:after {
+    content: "";
+    position: absolute;
+    background: url(../img/main/who-we-are/blob2.png) 0 0 no-repeat;
+    bottom: -148px;
+    left: -15px;
+    width: 665px;
+    height: 591px;
+    object-fit: cover;
+}
+
+.who-we-are:before {
+    content: "";
+    position: absolute;
+    background: url(../img/main/who-we-are/circles.png) 0 0 no-repeat;
+    top: -109px;
+    right: -76px;
+    width: 201px;
+    height: 317px;
+}
+
+.who-we-are__subtitle {
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+    position: relative;
+    padding-left: 35px;
+}
+
+.who-we-are__subtitle::before {
+    content: "";
+    background: url(../img/main/who-we-are/mark.png) 0 0 no-repeat;
+    width: 28px;
+    height: 27px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+
+}
+.who-we-are__title {
+    max-width: 583px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+.who-we-are__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    padding-bottom: 54px;
+}
+
+
+.image-dog {
+    position: relative;
+    max-width: 846px;
+    border-radius: 40px;
+    margin: -350px auto 0 auto;
+    overflow: hidden;
+    box-shadow: 0px 16px 24px 0px #26262633, 0px 8px 16px 0px #2626263d;
+}
+
+.image-dog__picture {
+    object-fit: cover;
+    width: 846px;
+    height: 420px;
+    max-width: 100%;
+    display: block;
+}
+.footer {
+}
+
